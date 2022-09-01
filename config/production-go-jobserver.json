@@ -1,0 +1,51 @@
+{
+  "redis_wrapper": "prod_wrapper_spl-0.semantics3.com:6379",
+  "redis_crawl": "prod_redis_general_spl-0.semantics3.com:6379",
+  "redis_recrawldiscovery": "prod_rdstore_spl-0.semantics3.com:6379",
+  "rest_rdstoreupdate": "prod_recrawldiscovery_spl-0.semantics3.com:4110",
+  "mongo_wrapper": "mongodb://prod_wrapper_spl-0.semantics3.com:27017",
+  "mongo_crawl": "mongodb://raw-db4.semantics3.com:27017",
+  "proxy_router": "prod_proxy_router_spl-0.semantics3.com:4000",
+  "influx": {
+    "database": "appmetrics",
+    "crawl_metrics": "crawl_metrics",
+    "product_metrics": "product_metrics",
+    "extraction_metrics": "extraction_metrics",
+    "protocol": "udp",
+    "server": "prod_sem3_appmetrics_spl-0.semantics3.com:8089"
+  },
+  "unsupervised_extraction_rpc": {
+    "host": "prod_rpc_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "general",
+    "queue": "content_extractor_ai"
+  },
+  "extraction_rpc": {
+    "host": "prod_rd_rabbitmq_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "by4&jGAzII1XHhZU",
+    "queue": "rd-content-extraction-prod"
+  },
+  "translation_rpc": {
+    "host": "prod_rd_rabbitmq_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "by4&jGAzII1XHhZU",
+    "queue": "rd-translate-prod"
+  },
+  "raw_etl_queue": "rd-raw-prod",
+  "pp_etl_queue": "rd-pp-prod",
+  "discovery-rawdata-queue": "discovery-skuspush-prod",
+  "rd_msg_broker": "amqp://general:by4&jGAzII1XHhZU@prod_rd_rabbitmq_spl-0.semantics3.com:5672",
+  "job_server": "prod_go_jobserver_rd_spl-0.semantics3.com:3130",
+  "sitesdb": "prod_recrawldiscovery_spl-0.semantics3.com:4108",
+  "pg_skus": {
+    "user": "semantics3",
+    "password": "semantics3",
+    "addr": "skus-db.semantics3.com:5432",
+    "db": "skus_production",
+    "pool_size": 10
+  }
+}

@@ -1,0 +1,20 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: realtime-crawler
+  name: realtime-crawler
+  namespace: default
+spec:
+  type: ClusterIP
+  ports:
+    - name: service
+      port: 4310
+      targetPort: 4310
+      protocol: TCP
+    - name: ingress
+      port: 80
+      targetPort: 4310
+      protocol: TCP
+  selector:
+    app: realtime-crawler

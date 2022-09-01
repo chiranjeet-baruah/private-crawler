@@ -1,0 +1,1217 @@
+{
+    "VariationsResult": {
+      "Items": [
+        {
+          "ASIN": "B07F6MXJ9X",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "Ancestor": {
+                        "ContextFreeName": "Home & Kitchen",
+                        "DisplayName": "Home & Kitchen",
+                        "Id": "1055398"
+                      },
+                      "ContextFreeName": "Home & Kitchen",
+                      "DisplayName": "Categories",
+                      "Id": "1063498"
+                    },
+                    "ContextFreeName": "Vacuum Cleaners & Floor Care",
+                    "DisplayName": "Vacuums & Floor Care",
+                    "Id": "510106"
+                  },
+                  "ContextFreeName": "Household Vacuum Cleaners",
+                  "DisplayName": "Vacuums",
+                  "Id": "3743521"
+                },
+                "ContextFreeName": "Upright Vacuum Cleaners",
+                "DisplayName": "Upright Vacuums",
+                "Id": "510110",
+                "IsRoot": false,
+                "SalesRank": 25
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Home & Kitchen Features",
+                "DisplayName": "Home & Kitchen Features",
+                "Id": "13900811",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 10024
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07F6MXJ9X?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41k0Lbs0D-L._SL500_.jpg",
+                "Width": 281
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41k0Lbs0D-L._SL160_.jpg",
+                "Width": 89
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41k0Lbs0D-L._SL75_.jpg",
+                "Width": 42
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41hMX5pIz8L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41hMX5pIz8L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41hMX5pIz8L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51sfBGv2S1L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51sfBGv2S1L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51sfBGv2S1L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51Nh-QOLB8L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51Nh-QOLB8L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51Nh-QOLB8L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51lj+6koBpL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51lj+6koBpL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51lj+6koBpL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/514xtoeF0oL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/514xtoeF0oL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/514xtoeF0oL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Bissell",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Bissell",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Kitchen",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0011120242539"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "011120242539"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Buy Bissell, save pets Bissell donates up to 10 dollars to the Bissell pet foundation for every pet product purchase, upon activation",
+                "Triple action brush roll + scatter free technology maximize pet hair pickup – even if it’s embedded",
+                "27’ power cord automatically rewinds for quick and easy storage. Cleaning path width - 13.5 inch",
+                "Swivel steering makes cleaning around furniture and obstacles easy",
+                "Edge to edge cleaning feature gets closer to walls and corners with each pass",
+                "Includes specialized pet tools like the pet hair corner tool and pet turbo eraser tool",
+                "Replacement filter: Style 12141",
+                "Dirt cup capacity 1.0 liter",
+                "Power source type: Corded electric"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "2254",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "2254",
+                "Label": "Model",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Teal",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "IsAdultProduct": {
+                "DisplayValue": false,
+                "Label": "IsAdultProduct",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 46.0,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 13.0,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Width": {
+                  "DisplayValue": 14.0,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-09-07T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "BISSELL Cleanview Swivel Rewind Pet Upright Bagless Vacuum Cleaner, Teal",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 2,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "ZN76O4uX6mRJGzXdWMtgdCEzQSqsQP9c6KnzASoSwgRV%2BaihxSLfaYJBSwXJgong4MkskXagTl47pEJS98fUBFf2Rm5FVSONz%2BfZrCfh8Id4ZzuHRayCPQ%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 149.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$149.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 130.66,
+                  "Currency": "USD",
+                  "DisplayAmount": "$130.66"
+                },
+                "LowestPrice": {
+                  "Amount": 103.16,
+                  "Currency": "USD",
+                  "DisplayAmount": "$103.16"
+                },
+                "OfferCount": 11
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 149.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$149.99"
+                },
+                "LowestPrice": {
+                  "Amount": 149.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$149.99"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B07KR7561D",
+          "VariationAttributes": [
+            {
+              "Name": "color_name",
+              "Value": "Teal"
+            },
+            {
+              "Name": "style_name",
+              "Value": "Cleanview Swivel"
+            }
+          ]
+        },
+        {
+          "ASIN": "B084CH4JNX",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "Ancestor": {
+                        "Ancestor": {
+                          "ContextFreeName": "Home & Kitchen",
+                          "DisplayName": "Home & Kitchen",
+                          "Id": "1055398"
+                        },
+                        "ContextFreeName": "Home & Kitchen",
+                        "DisplayName": "Categories",
+                        "Id": "1063498"
+                      },
+                      "ContextFreeName": "Vacuum Cleaners & Floor Care",
+                      "DisplayName": "Vacuums & Floor Care",
+                      "Id": "510106"
+                    },
+                    "ContextFreeName": "Vacuum Parts & Accessories",
+                    "DisplayName": "Vacuum Parts & Accessories",
+                    "Id": "510128"
+                  },
+                  "ContextFreeName": "Vacuum Replacement Batteries & Parts",
+                  "DisplayName": "Replacement Batteries & Parts",
+                  "Id": "10425210011"
+                },
+                "ContextFreeName": "Vacuum Belts",
+                "DisplayName": "Belts",
+                "Id": "3743621",
+                "IsRoot": false,
+                "SalesRank": 160
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Home & Kitchen Features",
+                "DisplayName": "Home & Kitchen Features",
+                "Id": "13900811",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 192019
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B084CH4JNX?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41h41hUiqeL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41h41hUiqeL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41h41hUiqeL._SL75_.jpg",
+                "Width": 75
+              }
+            }
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Bissell",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Bissell",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Product Bundle",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Every BISSELL purchase helps save pets. BISSELL proudly supports BISSELL Pet Foundation and its mission to help save homeless pets.",
+                "Dirt cup capacity - 1. 0 liter. Triple action brush roll + scatter-free technology maximize pet hair removal – even if it’s embedded",
+                "27’ power cord automatically rewinds for quick and simple storage",
+                "Belt fits styles 7, 9, 10, 12, 14, 16",
+                "The drive belt is an important component of your vacuum that allows the brush roll to spin and help remove dirt and debris from your carpet. You should replace your belt if broken or worn",
+                "You should check your vacuum cleaner's rotating floor brush and drive belt regularly for wear or damage",
+                "Premium allergen filtration",
+                "Replacing prevents dust and debris from cycling back out of the vacuum and into your home!",
+                "Did you know that your vacuum has filters that should be checked frequently? Depending on your household, it is recommended that you replace your vacuum filters every 3 to 6 months. Refer to your BISSELL vacuum owners manual for replacement instructions."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Purple",
+                "Label": "Color",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Cleanview Swivel Rewind + Replacement Belt + Febreze Filter",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": false,
+                  "IsPrimeEligible": true
+                },
+                "Id": "ZN76O4uX6mSfzE%2F8jC%2Bg5iIYUtOnxLjVSSO7B2%2FP5gP5UcdOfyv12cNNR3z1z8r3ROCXQTawq2Uew4GIHrvSLP%2BwGBEex8DJrrXKIeQZ4JsKiLxUJA8Lpw%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "LowestPrice": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B07KR7561D",
+          "VariationAttributes": [
+            {
+              "Name": "color_name",
+              "Value": "Purple"
+            },
+            {
+              "Name": "style_name",
+              "Value": "Cleanview 22543 + Belt & Febreze Filter"
+            }
+          ]
+        },
+        {
+          "ASIN": "B07H6HHD4Z",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "Ancestor": {
+                        "ContextFreeName": "Home & Kitchen",
+                        "DisplayName": "Home & Kitchen",
+                        "Id": "1055398"
+                      },
+                      "ContextFreeName": "Home & Kitchen",
+                      "DisplayName": "Categories",
+                      "Id": "1063498"
+                    },
+                    "ContextFreeName": "Vacuum Cleaners & Floor Care",
+                    "DisplayName": "Vacuums & Floor Care",
+                    "Id": "510106"
+                  },
+                  "ContextFreeName": "Household Vacuum Cleaners",
+                  "DisplayName": "Vacuums",
+                  "Id": "3743521"
+                },
+                "ContextFreeName": "Upright Vacuum Cleaners",
+                "DisplayName": "Upright Vacuums",
+                "Id": "510110",
+                "IsRoot": false,
+                "SalesRank": 25
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Home & Kitchen Features",
+                "DisplayName": "Home & Kitchen Features",
+                "Id": "13900811",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 10024
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07H6HHD4Z?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/312J72OxUDL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/312J72OxUDL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/312J72OxUDL._SL75_.jpg",
+                "Width": 75
+              }
+            }
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Bissell",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Bissell",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Product Bundle",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Buy BISSELL, save pets BISSELL donates up to 10 dollars to the BISSELL pet foundation for every pet product purchase, upon activation",
+                "Triple action brush roll + scatter free technology maximize pet hair pickup – even if it’s embedded",
+                "27’ power cord automatically rewinds for quick and easy storage",
+                "Buy BISSELL, save pets; BISSELL will donate 5 dollars for each pet hair eraser Li Ion purchase, upon activation",
+                "Remove more embedded dirt and pet hair with a motorized brush tool and lithium ion battery",
+                "14V lithium ion battery for lithium powered cleaning; Dirt Cup Capacity: 0.7 Litres"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Teal",
+                "Label": "Color",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Cleanview Swivel Rewind + Hand Vacuum",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": false,
+                  "IsPrimeEligible": true
+                },
+                "Id": "ZN76O4uX6mRJGzXdWMtgdJMEZj7FD7xRRXB56JspncBdOF7i3vk9EHZ06Lmu1SLJbVLrbsa52wqtc69gz9HpPuHuCYUjKTWbU%2Ff%2FhyqB4piuldnq0snO0w%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "LowestPrice": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B07KR7561D",
+          "VariationAttributes": [
+            {
+              "Name": "color_name",
+              "Value": "Teal"
+            },
+            {
+              "Name": "style_name",
+              "Value": "Cleanview Swivel + Hand Vac"
+            }
+          ]
+        },
+        {
+          "ASIN": "B084CGWJYW",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "Ancestor": {
+                        "Ancestor": {
+                          "ContextFreeName": "Home & Kitchen",
+                          "DisplayName": "Home & Kitchen",
+                          "Id": "1055398"
+                        },
+                        "ContextFreeName": "Home & Kitchen",
+                        "DisplayName": "Categories",
+                        "Id": "1063498"
+                      },
+                      "ContextFreeName": "Vacuum Cleaners & Floor Care",
+                      "DisplayName": "Vacuums & Floor Care",
+                      "Id": "510106"
+                    },
+                    "ContextFreeName": "Vacuum Parts & Accessories",
+                    "DisplayName": "Vacuum Parts & Accessories",
+                    "Id": "510128"
+                  },
+                  "ContextFreeName": "Vacuum Replacement Batteries & Parts",
+                  "DisplayName": "Replacement Batteries & Parts",
+                  "Id": "10425210011"
+                },
+                "ContextFreeName": "Vacuum Belts",
+                "DisplayName": "Belts",
+                "Id": "3743621",
+                "IsRoot": false,
+                "SalesRank": 509
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Home & Kitchen Features",
+                "DisplayName": "Home & Kitchen Features",
+                "Id": "13900811",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 628522
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B084CGWJYW?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/31H2Ns9We9L._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/31H2Ns9We9L._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/31H2Ns9We9L._SL75_.jpg",
+                "Width": 75
+              }
+            }
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Bissell",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Bissell",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Product Bundle",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Every BISSELL purchase helps save pets. BISSELL proudly supports BISSELL Pet Foundation and its mission to help save homeless pets.",
+                "Dirt cup capacity - 1. 0 liter. Triple action brush roll + scatter-free technology maximize pet hair removal – even if it’s embedded",
+                "27’ power cord automatically rewinds for quick and simple storage",
+                "Buy BISSELL, save pets; BISSELL will donate 5 dollars for each pet hair eraser Li Ion purchase, upon activation",
+                "Remove more embedded dirt and pet hair with a motorized brush tool and lithium ion battery",
+                "14V lithium ion battery for lithium powered cleaning; Dirt Cup Capacity: 0.7 Litres"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Purple",
+                "Label": "Color",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Cleanview Swivel Rewind + Hand Vacuum",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": false,
+                  "IsPrimeEligible": true
+                },
+                "Id": "ZN76O4uX6mSfzE%2F8jC%2Bg5nwZqYYBz21xVEn9SD%2BqM838yPX6PoZPfiW%2BpFhghGgwfhEU1jW3hciAaxaMBV1TpF9UsH2lnKyTZOcOJnWbOU3BazNwtkKrVg%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "LowestPrice": {
+                  "Amount": 219.98,
+                  "Currency": "USD",
+                  "DisplayAmount": "$219.98"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B07KR7561D",
+          "VariationAttributes": [
+            {
+              "Name": "color_name",
+              "Value": "Purple"
+            },
+            {
+              "Name": "style_name",
+              "Value": "Cleanview 22543 + PHE Hand Vac"
+            }
+          ]
+        },
+        {
+          "ASIN": "B07H66GBCC",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "Ancestor": {
+                        "ContextFreeName": "Home & Kitchen",
+                        "DisplayName": "Home & Kitchen",
+                        "Id": "1055398"
+                      },
+                      "ContextFreeName": "Home & Kitchen",
+                      "DisplayName": "Categories",
+                      "Id": "1063498"
+                    },
+                    "ContextFreeName": "Vacuum Cleaners & Floor Care",
+                    "DisplayName": "Vacuums & Floor Care",
+                    "Id": "510106"
+                  },
+                  "ContextFreeName": "Household Vacuum Cleaners",
+                  "DisplayName": "Vacuums",
+                  "Id": "3743521"
+                },
+                "ContextFreeName": "Upright Vacuum Cleaners",
+                "DisplayName": "Upright Vacuums",
+                "Id": "510110",
+                "IsRoot": false,
+                "SalesRank": 25
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Home & Kitchen Features",
+                "DisplayName": "Home & Kitchen Features",
+                "Id": "13900811",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 10024
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07H66GBCC?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41qHIxcEzTL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41qHIxcEzTL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41qHIxcEzTL._SL75_.jpg",
+                "Width": 75
+              }
+            }
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Bissell",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Bissell",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Product Bundle",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Buy BISSELL, save pets BISSELL donates up to 10 dollars to the BISSELL pet foundation for every pet product purchase, upon activation",
+                "Triple action brush roll + scatter free technology maximize pet hair pickup – even if it’s embedded",
+                "27’ power cord automatically rewinds for quick and easy storage",
+                "Belt fits styles 7, 9, 10, 12, 14, 16",
+                "The drive belt is an important component of your vacuum that allows the brush roll to spin and help remove dirt and debris from your carpet. You should replace your belt if broken or worn",
+                "You should check your vacuum cleaner's rotating floor brush and drive belt regularly for wear or damage",
+                "Premium allergen filtration",
+                "Replacing prevents dust and debris from cycling back out of the vacuum and into your home!",
+                "Did you know that your vacuum has filters that should be checked frequently? Depending on your household, it is recommended that you replace your vacuum filters every 3 to 6 months. Refer to your BISSELL vacuum owners manual for replacement instructions."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Teal",
+                "Label": "Color",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Cleanview Swivel Rewind + Replacement Belt + Febreze Filter",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": false,
+                  "IsPrimeEligible": true
+                },
+                "Id": "ZN76O4uX6mRJGzXdWMtgdH%2B71DhdPsHCuHdn%2B%2BLB2Ql1o6xb2B845H43HgCUcph%2BdHEjW4L51NrXUCJ8Fy1kyI4nVzc4GhdUqL7QKt22PwlovzofaXLRfg%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "LowestPrice": {
+                  "Amount": 168.08,
+                  "Currency": "USD",
+                  "DisplayAmount": "$168.08"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B07KR7561D",
+          "VariationAttributes": [
+            {
+              "Name": "color_name",
+              "Value": "Teal"
+            },
+            {
+              "Name": "style_name",
+              "Value": "Cleanview Swivel + Replacement Bundle"
+            }
+          ]
+        }
+      ],
+      "VariationSummary": {
+        "PageCount": 1,
+        "VariationCount": 5,
+        "VariationDimensions": [
+          {
+            "DisplayName": "Color",
+            "Name": "color_name",
+            "Values": [
+              "Purple",
+              "Teal"
+            ]
+          },
+          {
+            "DisplayName": "Style",
+            "Name": "style_name",
+            "Values": [
+              "Cleanview 22543 + Belt & Febreze Filter",
+              "Cleanview 22543 + PHE Hand Vac",
+              "Cleanview Swivel",
+              "Cleanview Swivel + Hand Vac",
+              "Cleanview Swivel + Replacement Bundle"
+            ]
+          }
+        ]
+      }
+    }
+  }

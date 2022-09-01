@@ -1,0 +1,53 @@
+{
+  "redis_wrapper": "prod_wrapper_spl-0.semantics3.com:6379",
+  "redis_crawl": "prod_redis_general_spl-0.semantics3.com:6379",
+  "redis_recrawldiscovery": "prod_rdstore_spl-0.semantics3.com:6379",
+  "mongo_wrapper": "mongodb://prod_wrapper_spl-0.semantics3.com:27017",
+  "mongo_crawl": "mongodb://10.0.3.229:27017",
+  "cache_service": "prod_crawler_data_store_spl-0.semantics3.com:4310",
+  "proxy_router": "prod_proxy_router_spl-0.semantics3.com:4000",
+  "influx": {
+    "database": "appmetrics",
+    "crawl_metrics": "crawl_metrics",
+    "product_metrics": "product_metrics",
+    "extraction_metrics": "extraction_metrics",
+    "protocol": "udp",
+    "server": "prod_sem3_appmetrics_spl-0.semantics3.com:8089"
+  },
+  "extraction_rpc": {
+    "host": "prod_rd_rabbitmq_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "by4&jGAzII1XHhZU",
+    "queue": "rd-content-extraction-staging"
+  },
+  "unsupervised_extraction_rpc": {
+    "host": "prod_rpc_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "general",
+    "queue": "content_extractor_ai"
+  },
+  "rd_msg_broker": "amqp://general:by4&jGAzII1XHhZU@prod_rd_rabbitmq_spl-0.semantics3.com:5672",
+  "rd_etl_controller": "http://prod_rd_etl_controller_spl-0.semantics3.com:4115",
+  "consume_queues": [
+    {
+      "prefetch_count": 100,
+      "service_name": "crawl_worker_consumer_queue",
+      "queue_name": "rd-crawl-worker-consumer-staging"
+    }
+  ],
+  "consume_site_pool_map": {
+    "neweggbusiness.com": 2,
+    "samsclub.com": 5,
+    "costco.com": 2,
+    "amazon.com": 100,
+    "walmart.com": 35
+  },
+  "publish_queues": [
+    {
+      "service_name": "crawl_worker_publisher_queue",
+      "queue_name": "rd-crawl-worker-publisher-staging"
+    }
+  ]
+}

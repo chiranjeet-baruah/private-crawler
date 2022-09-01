@@ -1,0 +1,3 @@
+https_method	full_url	header_name	header_value	body_data
+POST	https://realtime-crawler.stage.mp-commerce.com/crawl/url/simple	''	''	{"job_details":{"job_id":"webhooks","job_type":"webhooks"},"job_id":"webhooks","job_params":{"dont_use_redis_general":1,"realtime_api":1,"single":1,"remove_invalid_fields":1,"realtime_disable_discontinued_extraction":1,"skip_product_validation_in_content_extraction_fallback":1,"data_sources":["WRAPPER"]},"tasks":{"https://mock-ecommerce-website.stage.mp-commerce.com/request/success/product":{"linkType":"content","priority":101}}}
+POST	https://realtime-crawler.stage.mp-commerce.com/domain/info	''	''	{"url": "https://www.amazon.com/dp/ABCDE12345"}

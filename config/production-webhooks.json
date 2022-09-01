@@ -1,0 +1,42 @@
+{
+  "redis_wrapper": "prod_wrapper_spl-0.semantics3.com:6379",
+  "mongo_wrapper": "mongodb://prod_wrapper_spl-0.semantics3.com:27017",
+  "redis_recrawldiscovery": "prod_rdstore_spl-0.semantics3.com:6379",
+  "rest_rdstoreupdate": "prod_recrawldiscovery_spl-0.semantics3.com:4110",
+  "cache_service": "prod_crawler_data_store_spl-0.semantics3.com:4310",
+  "proxy_router": "prod_proxy_router_spl-0.semantics3.com:4000",
+  "influx": {
+    "database": "appmetrics",
+    "crawl_metrics": "crawl_metrics",
+    "product_metrics": "product_metrics",
+	"extraction_metrics": "extraction_metrics",
+    "protocol": "udp",
+    "server": "prod_sem3_appmetrics_spl-0.semantics3.com:8089"
+  },
+  "extraction_rpc": {
+    "host": "prod_api_rabbitmq_spl-0.semantics3.com",
+    "user": "general",
+    "pass": "V7t6gALHWIccB8Sv",
+    "port": 5672,
+    "queue": "content-extraction-webhooks"
+  },
+  "translation_rpc": {
+    "host": "prod_rd_rabbitmq_spl-0.semantics3.com",
+    "port": 5672,
+    "user": "general",
+    "pass": "by4&jGAzII1XHhZU",
+    "queue": "rd-translate-prod"
+  },
+  "unsupervised_extraction_rpc": {
+    "host": "prod_api_rabbitmq_spl-0.semantics3.com",
+    "user": "general",
+    "pass": "V7t6gALHWIccB8Sv",
+    "port": 5672,
+    "queue": "content-extraction-ai-webhooks",
+    "timeout": 120
+  },
+  "raw_etl_queue": "rd-raw-prod",
+  "pp_etl_queue": "rd-pp-prod",
+  "discovery-rawdata-queue": "discovery-skuspush-prod",
+  "rd_msg_broker": "amqp://general:by4&jGAzII1XHhZU@prod_rd_rabbitmq_spl-0.semantics3.com:5672"
+}

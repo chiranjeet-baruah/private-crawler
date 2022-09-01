@@ -1,0 +1,11 @@
+*.swp
+vendor
+go-crawler
+config/development-*.json
+config/*amar*.json
+config/local.json
+.env.local
+.vscode/
+.envrc
+*.code-workspace
+.DS_STORE

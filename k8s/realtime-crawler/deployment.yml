@@ -1,0 +1,92 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  labels:
+    app: realtime-crawler
+  name: realtime-crawler
+  namespace: default
+spec:
+  replicas: {{ k8s_replicas }}
+  selector:
+    matchLabels:
+      app: realtime-crawler
+  revisionHistoryLimit: 5
+  minReadySeconds: 30
+  progressDeadlineSeconds: 600
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: realtime-crawler
+    spec:
+      volumes:
+      containers:
+        - name: realtime-crawler
+          image: {{ global_registry_host }}/go-crawler:{{ tag }}
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/rest.sh
+          resources:
+            requests:
+              cpu: "{{ k8s_cpu_requests }}"
+              memory: "{{ k8s_memory_requests }}"
+          env:
+            - name: "INFLUXDB_ADDR"
+              value : "{{ influxdb_addr }}"
+            - name: "GLOBAL_DATADOG_HOST"
+              value: "{{ global_datadog_host }}"
+            - name: "CACHE_SERVICE_ADDR"
+              value: "{{ cache_service_addr }}"
+            - name: "ENV_MODE"
+              value: "{{ env_mode }}"
+            - name: "MONGO_URI"
+              value: "{{ mongo_uri }}"
+            - name: "RABBITMQ_URI"
+              value: "{{ rabbitmq_uri }}"
+            - name: "WRAPPER_SERVICE_URI"
+              value: "{{ wrapper_service_uri }}"
+            - name: "EXTRACTION_QUEUE"
+              value: "{{ extraction_queue }}"
+            - name: "EXTRACTION_AI_QUEUE"
+              value: "{{ extraction_ai_queue }}"
+            - name: "PROXY_ROUTER_ADDR"
+              value: "{{ proxy_router_addr }}"
+            - name: "REDIS_HOST_ADDR"
+              value: "{{ redis_host_addr }}"
+            - name: "REST_RDSTOREUPDATE_ADDR"
+              value: "{{ rest_rdstoreupdate_addr }}"
+            - name: "PAAPI_ACCESS_KEY"
+              value: "{{ paapi_access_key }}"
+            - name: "PAAPI_SECRET_KEY"
+              value: "{{ paapi_secret_key }}"
+            - name: "NL_PAAPI_ACCESS_KEY"
+              value: "{{ nl_paapi_access_key }}"
+            - name: "NL_PAAPI_SECRET_KEY"
+              value: "{{ nl_paapi_secret_key }}"
+            - name: "JP_PAAPI_ACCESS_KEY"
+              value: "{{ jp_paapi_access_key }}"
+            - name: "JP_PAAPI_SECRET_KEY"
+              value: "{{ jp_paapi_secret_key }}"
+            - name: "M101_API_KEY"
+              value: "{{ m101_api_key }}"
+          ports:
+          - containerPort: 4310
+            protocol: TCP
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 4310
+            initialDelaySeconds: 60
+            periodSeconds: 60
+          livenessProbe:
+            tcpSocket:
+              port: 4310
+            initialDelaySeconds: 60
+            periodSeconds: 60
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: "ClusterFirst"

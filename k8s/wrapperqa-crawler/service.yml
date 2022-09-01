@@ -1,0 +1,20 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: wrapperqa-crawler
+  name: wrapperqa-crawler
+  namespace: default
+spec:
+  type: ClusterIP
+  ports:
+    - name: service
+      port: 4310
+      targetPort: 4310
+      protocol: TCP
+    - name: ingress
+      port: 80
+      targetPort: 4310
+      protocol: TCP
+  selector:
+    app: wrapperqa-crawler

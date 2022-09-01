@@ -1,0 +1,82 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  labels:
+    app: hscode-crawler
+  name: hscode-crawler
+  namespace: default
+spec:
+  replicas: {{ k8s_replicas }}
+  selector:
+    matchLabels:
+      app: hscode-crawler
+  revisionHistoryLimit: 3
+  minReadySeconds: 60
+  progressDeadlineSeconds: 120
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
+  template:
+    metadata:
+      labels:
+        app: hscode-crawler
+    spec:
+      volumes:
+      containers:
+        - name: hscode-crawler
+          image: {{ global_registry_host }}/go-crawler:{{ tag }}
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/rest.sh
+          resources:
+            requests:
+              cpu: "{{ k8s_cpu_requests }}"
+              memory: "{{ k8s_memory_requests }}"
+          env:
+            - name: "MY_POD_IP"
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: "ENV_MODE"
+              value: "{{ env_mode }}"
+            - name: "GLOBAL_DATADOG_HOST"
+              value: "{{ global_datadog_host }}"
+            - name: "CACHE_SERVICE_ADDR"
+              value: "{{ cache_service_addr }}"
+            - name: "INFLUXDB_ADDR"
+              value : "{{ influxdb_addr }}"
+            - name: "MONGO_URI"
+              value: "{{ mongo_uri }}"
+            - name: "RABBITMQ_URI"
+              value: "{{ rabbitmq_uri }}"
+            - name: "EXTRACTION_QUEUE"
+              value: "{{ extraction_queue }}"
+            - name: "EXTRACTION_AI_QUEUE"
+              value: "{{ extraction_ai_queue }}"
+            - name: "WRAPPER_SERVICE_URI"
+              value: "{{ wrapper_service_uri }}"
+            - name: "PROXY_ROUTER_ADDR"
+              value: "{{ proxy_router_addr }}"
+            - name: "REDIS_HOST_ADDR"
+              value: "{{ redis_host_addr }}"
+            - name: "REST_RDSTOREUPDATE_ADDR"
+              value: "{{ rest_rdstoreupdate_addr }}"
+          ports:
+          - containerPort: 4310
+            protocol: TCP
+          livenessProbe:
+            tcpSocket:
+              port: 4310
+            initialDelaySeconds: 60
+            periodSeconds: 120
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 4310
+            initialDelaySeconds: 60
+            periodSeconds: 120
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 60
+      dnsPolicy: "ClusterFirst"

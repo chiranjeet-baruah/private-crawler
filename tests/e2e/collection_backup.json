@@ -1,0 +1,1728 @@
+{
+	"info": {
+		"_postman_id": "600a909b-8a11-4975-b6e7-e00dc29ad131",
+		"name": "Go Crawler: Test Suite",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [{
+			"name": "discontinued_on_empty_response",
+			"item": [{
+					"name": "AJAX returned 404",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 404\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(404);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c1a848792eff3010f46c372\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-404.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 503",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 503\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(503);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c1a848792eff3010f46c372\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-503.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned empty content",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 404\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(404);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c1a848792eff3010f46c372\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-empty.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned unexpected content",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 404\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(404);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c1a848792eff3010f46c372\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ajax_important",
+			"item": [{
+					"name": "AJAX returned 404",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 404\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(404);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c0665e892eff3010f46c36f\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-404.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 503",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 503\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(503);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c0665e892eff3010f46c36f\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-503.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned empty content",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 500\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(500);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c0665e892eff3010f46c36f\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-empty.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned unexpected content",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "a071d734-dfe9-4e37-a3b3-7b50279bb45c",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"primary web response status must be 500\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('webResponse');",
+								"    pm.expect(jsonData[url].webResponse.status).to.equal(500);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"testwrapper\"\n    },\n    \"job_params\": {\n        \"use_go_crawler\": 1,\n        \"wrapper_id\": \"5c0665e892eff3010f46c36f\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4310/crawl/url/simple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4310",
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Realtime API",
+			"item": [{
+					"name": "use_search_wrapper",
+					"item": [{
+							"name": "not a product page and domain not configured for search",
+							"event": [{
+								"listen": "test",
+								"script": {
+									"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+									"exec": [
+										"pm.test(\"workflow must fail with the REALTIME_NOT_PRODUCT_PAGE failure type\", function() {",
+										"    pm.response.to.have.status(200);",
+										"    var jsonData = pm.response.json();",
+										"    var reqBody = JSON.parse(pm.request.body);",
+										"    var url = _.head(_.keys(reqBody.tasks));",
+										"    pm.expect(jsonData).to.have.key(url);",
+										"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+										"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_PRODUCT_PAGE');",
+										"});"
+									],
+									"type": "text/javascript"
+								}
+							}],
+							"request": {
+								"method": "POST",
+								"header": [{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"type": "text",
+									"value": "application/json"
+								}],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"use_search_wrapper\": 1\n    },\n    \"tasks\": {\n        \"https://row.feelunique.com/search?q=pantene\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+								},
+								"url": {
+									"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+									"host": [
+										"{{CRAWL_SERVICE}}"
+									],
+									"path": [
+										"crawl",
+										"url",
+										"simple"
+									]
+								},
+								"description": "URL is from a domain whose sitedetail does not have `search_wrapper_id` or `searchUrlFilters[]` configured.\nURL does not match any of the sitedetail's `urlFilters[]` patterns."
+							},
+							"response": []
+						},
+						{
+							"name": "product page and domain configured for search",
+							"event": [{
+								"listen": "test",
+								"script": {
+									"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+									"exec": [
+										"pm.test(\"workflow must not fail with the REALTIME_NOT_SEARCH_PAGE failure type\", function() {",
+										"    pm.response.to.have.status(200);",
+										"    var jsonData = pm.response.json();",
+										"    var reqBody = JSON.parse(pm.request.body);",
+										"    var url = _.head(_.keys(reqBody.tasks));",
+										"    pm.expect(jsonData).to.have.key(url);",
+										"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+										"    pm.expect(jsonData[url].failuretype).to.be.null;",
+										"});"
+									],
+									"type": "text/javascript"
+								}
+							}],
+							"request": {
+								"method": "POST",
+								"header": [{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"type": "text",
+									"value": "application/json"
+								}],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"use_search_wrapper\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/1.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+								},
+								"url": {
+									"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+									"host": [
+										"{{CRAWL_SERVICE}}"
+									],
+									"path": [
+										"crawl",
+										"url",
+										"simple"
+									]
+								},
+								"description": "URL is from a domain whose sitedetail has both `search_wrapper_id` or `searchUrlFilters[]` configured.\nURL matches one or more of the sitedetail's `urlFilters[]` patterns."
+							},
+							"response": []
+						},
+						{
+							"name": "search page and domain configured for search",
+							"event": [{
+								"listen": "test",
+								"script": {
+									"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+									"exec": [
+										"pm.test(\"workflow must succeed with links extracted\", function() {",
+										"    pm.response.to.have.status(200);",
+										"    var jsonData = pm.response.json();",
+										"    var reqBody = JSON.parse(pm.request.body);",
+										"    var url = _.head(_.keys(reqBody.tasks));",
+										"    pm.expect(jsonData).to.have.key(url);",
+										"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+										"    pm.expect(jsonData[url].failuretype).to.be.null;",
+										"    pm.expect(_.keys(jsonData[url].data.links).length).to.equal(2);",
+										"});"
+									],
+									"type": "text/javascript"
+								}
+							}],
+							"request": {
+								"method": "POST",
+								"header": [{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"type": "text",
+									"value": "application/json"
+								}],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"use_search_wrapper\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/search.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+								},
+								"url": {
+									"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+									"host": [
+										"{{CRAWL_SERVICE}}"
+									],
+									"path": [
+										"crawl",
+										"url",
+										"simple"
+									]
+								},
+								"description": "URL is from a domain whose sitedetail does not have `search_wrapper_id` or `searchUrlFilters[]` configured.\nURL does not match any of the sitedetail's `urlFilters[]` patterns BUT matches one or more of the `searchUrlFilters[]` patterns."
+							},
+							"response": []
+						},
+						{
+							"name": "neither a search page nor a product page and domain configured for search",
+							"event": [{
+								"listen": "test",
+								"script": {
+									"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+									"exec": [
+										"pm.test(\"workflow must fail with the REALTIME_NOT_SEARCH_PAGE failure type\", function() {",
+										"    pm.response.to.have.status(200);",
+										"    var jsonData = pm.response.json();",
+										"    var reqBody = JSON.parse(pm.request.body);",
+										"    var url = _.head(_.keys(reqBody.tasks));",
+										"    pm.expect(jsonData).to.have.key(url);",
+										"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+										"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_SEARCH_PAGE');",
+										"});"
+									],
+									"type": "text/javascript"
+								}
+							}],
+							"request": {
+								"method": "POST",
+								"header": [{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"type": "text",
+									"value": "application/json"
+								}],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"use_search_wrapper\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+								},
+								"url": {
+									"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+									"host": [
+										"{{CRAWL_SERVICE}}"
+									],
+									"path": [
+										"crawl",
+										"url",
+										"simple"
+									]
+								},
+								"description": "URL is from a domain whose sitedetail does not have `search_wrapper_id` or `searchUrlFilters[]` configured.\nURL does not match either any of the sitedetail's `urlFilters[]` patterns OR any of the `searchUrlFilters[]` patterns."
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "No sitedetail when extraction mode is WRAPPER",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with REALTIME_DOMAIN_NOT_SUPPORTED failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOMAIN_NOT_SUPPORTED');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n        \"extraction_mode\": \"WRAPPER\"\n    },\n    \"tasks\": {\n        \"https://theoatmeal.com/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "No sitedetail when extraction mode is empty",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with REALTIME_DOMAIN_NOT_SUPPORTED failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOMAIN_NOT_SUPPORTED');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {},\n    \"tasks\": {\n        \"https://theoatmeal.com/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "No sitedetail and extraction mode includes the UNSUPERVISED engine",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with REALTIME_DOMAIN_NOT_SUPPORTED failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.not.equal('REALTIME_DOMAIN_NOT_SUPPORTED');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_UNSUPERVISED\"\n    },\n    \"tasks\": {\n        \"https://theoatmeal.com/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "No sitedetail and extraction mode includes the DIFFBOT engine",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with REALTIME_DOMAIN_NOT_SUPPORTED failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.not.equal('REALTIME_DOMAIN_NOT_SUPPORTED');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_DIFFBOT\"\n    },\n    \"tasks\": {\n        \"https://theoatmeal.com/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Supervised site and not a product page",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with REALTIME_NOT_PRODUCT_PAGE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_PRODUCT_PAGE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {},\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/search.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Supervised site, not a product page and extraction mode is WRAPPER_UNSUPERVISED",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with REALTIME_NOT_PRODUCT_PAGE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_PRODUCT_PAGE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_UNSUPERVISED\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/about-us.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Unsupervised site and not a product page [UNSUPERVISED]",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with REALTIME_NOT_PRODUCT_PAGE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_PRODUCT_PAGE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"UNSUPERVISED\"\n    },\n    \"tasks\": {\n        \"https://themes.getbootstrap.com\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Unsupervised site and not a product page [DIFFBOT]",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"// Ideally it should say REALTIME_NOT_PRODUCT_PAGE",
+								"pm.test(\"workflow must have failed with the REALTIME_DIFFBOT_EXTRACTION_FAILED failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DIFFBOT_EXTRACTION_FAILED');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"DIFFBOT\"\n    },\n    \"tasks\": {\n        \"https://theoatmeal.com/\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Amazon Parent ASIN page",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must fail with the REALTIME_NOT_PRODUCT_PAGE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_NOT_PRODUCT_PAGE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\"\n    },\n    \"tasks\": {\n        \"https://www.amazon.com/dp/B0728KJB5T\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Site status is DELETED and extraction mode is WRAPPER",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with REALTIME_EXTRACTION_SITE_STATUS_CHECK_FAILED_DELETED_SITE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_EXTRACTION_SITE_STATUS_CHECK_FAILED_DELETED_SITE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\"\n    },\n    \"tasks\": {\n        \"https://www.jumia.com.eg/ata-green-55-inch-ultra-hd-4k-monitor-one-item-per-order-6564271.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Site status is DELETED and extraction mode includes an unsupervised engine",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"// Ideally it should say REALTIME_NOT_PRODUCT_PAGE",
+								"pm.test(\"workflow must not have failed with REALTIME_SITE_STATUS_CHECK_FAILED_DELETED_SITE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.not.equal('REALTIME_SITE_STATUS_CHECK_FAILED_DELETED_SITE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_UNSUPERVISED\"\n    },\n    \"tasks\": {\n        \"https://www.jumia.com.eg/ata-green-55-inch-ultra-hd-4k-monitor-one-item-per-order-6564271.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Site status is PAUSE_BROKEN_WRAPPER and extraction mode is WRAPPER",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with REALTIME_EXTRACTION_SITE_STATUS_CHECK_FAILED_BROKEN_WRAPPER failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_EXTRACTION_SITE_STATUS_CHECK_FAILED_BROKEN_WRAPPER');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\"\n    },\n    \"tasks\": {\n        \"https://www.backcountrygear.com/yupik-parka-men-s-fjallraven.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Site status is PAUSE_BROKEN_WRAPPER and extraction mode includes an unsupervised engine",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not have failed with the SITE_STATUS_CHECK_FAILED_BROKEN_WRAPPER failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.not.equal('REALTIME_SITE_STATUS_CHECK_FAILED_BROKEN_WRAPPER');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_UNSUPERVISED\"\n    },\n    \"tasks\": {\n        \"https://www.backcountrygear.com/yupik-parka-men-s-fjallraven.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Product is discontinued and extraction mode is WRAPPER",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must fail with the REALTIME_DOES_NOT_EXIST failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOES_NOT_EXIST');",
+								"    pm.expect(jsonData[url].data.products.length).to.be.gte(1);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"use_go_crawler\": 1,\n    \t\"extract_data\": 1\n    },\n    \"tasks\": {\n        \"https://www.amazon.com/dp/B010NDBVHY\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "Product is discontinued and extraction mode includes an unsupervised engine",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"",
+								"pm.test(\"workflow must fail with the REALTIME_DOES_NOT_EXIST failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOES_NOT_EXIST');",
+								"    pm.expect(jsonData[url].data.products.length).to.be.gte(1);",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER_UNSUPERVISED\",\n    \t\"extract_data\": 1\n    },\n    \"tasks\": {\n        \"https://www.amazon.com/dp/B010NDBVHY\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "The offers check as described here: https://semantics3.atlassian.net/wiki/spaces/DI/pages/35029247/When+do+we+fallback+to+UCE+for+crawling will fail for this product since it is discontinued. However, as a special case, we don't let it fallback to UNSUPERVISED."
+					},
+					"response": []
+				},
+				{
+					"name": "Product page returned 503 and extraction mode includes WRAPPER",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"",
+								"pm.test(\"workflow must fail with the REALTIME_UNREACHABLE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_UNREACHABLE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"max_attempts\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/503\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "The offers check as described here: https://semantics3.atlassian.net/wiki/spaces/DI/pages/35029247/When+do+we+fallback+to+UCE+for+crawling will fail for this product since it is discontinued. However, as a special case, we don't let it fallback to UNSUPERVISED."
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 404 with no flags enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not fail\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.be.null;",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c30efb092eff3010f46c373\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-404.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 404 with ajax_important enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with the REALTIME_DOES_NOT_EXIST failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOES_NOT_EXIST');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c0665e892eff3010f46c36f\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-404.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 404 with discontinued_on_empty_response enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow have failed with REALTIME_DOES_NOT_EXIST failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_DOES_NOT_EXIST');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c1a848792eff3010f46c372\"\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-404.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 503 with no flags enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must not fail\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.be.null;",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c30efb092eff3010f46c373\",\n    \t\"max_attempts\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-503.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 503 with ajax_important enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with the REALTIME_UNREACHABLE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_UNREACHABLE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c0665e892eff3010f46c36f\",\n    \t\"max_attempts\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-503.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "When the extraction mode is not specified or set to WRAPPER, the expectation is that the URL domain has a sitedetail. When not available, the workflow should fail with a REALTIME_DOMAIN_NOT_SUPPORTED failure code"
+					},
+					"response": []
+				},
+				{
+					"name": "AJAX returned 503 with discontinued_on_empty_response enabled",
+					"event": [{
+						"listen": "test",
+						"script": {
+							"id": "c9e41905-695e-494b-8a2c-6848c7b09984",
+							"exec": [
+								"pm.test(\"response is ok\", function() {",
+								"    pm.response.to.have.status(200);",
+								"});",
+								"",
+								"pm.test(\"workflow must have failed with the REALTIME_UNREACHABLE failure type\", function() {",
+								"    var jsonData = pm.response.json();",
+								"    var reqBody = JSON.parse(pm.request.body);",
+								"    var url = _.head(_.keys(reqBody.tasks));",
+								"    pm.expect(jsonData).to.have.key(url);",
+								"    pm.expect(jsonData[url]).to.have.property('failuretype');",
+								"    pm.expect(jsonData[url].failuretype).to.equal('REALTIME_UNREACHABLE');",
+								"});"
+							],
+							"type": "text/javascript"
+						}
+					}],
+					"request": {
+						"method": "POST",
+						"header": [{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"job_details\": {\n        \"job_type\": \"realtimeapi\"\n    },\n    \"job_params\": {\n    \t\"extraction_mode\": \"WRAPPER\",\n    \t\"wrapper_id\": \"5c1a848792eff3010f46c372\",\n    \t\"max_attempts\": 1\n    },\n    \"tasks\": {\n        \"{{RUNKIT_BASE_URL}}/products/ajax-503.html\": {\n            \"priority\": 101,\n            \"linkType\": \"content\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "{{CRAWL_SERVICE}}/crawl/url/simple",
+							"host": [
+								"{{CRAWL_SERVICE}}"
+							],
+							"path": [
+								"crawl",
+								"url",
+								"simple"
+							]
+						},
+						"description": "If a secondary web request returned a 503 and the `discontinued_on_empty_response` flag is enabled, the primary web request must be considered as failed."
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

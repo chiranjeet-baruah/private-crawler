@@ -1,0 +1,263 @@
+{
+    "ItemsResult": {
+      "Items": [
+        {
+          "ASIN": "B0844PTLHG",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Home & Kitchen",
+                      "DisplayName": "Home & Kitchen",
+                      "Id": "1055398"
+                    },
+                    "ContextFreeName": "Home & Kitchen",
+                    "DisplayName": "Categories",
+                    "Id": "1063498"
+                  },
+                  "ContextFreeName": "Wall Art",
+                  "DisplayName": "Wall Art",
+                  "Id": "3736081"
+                },
+                "ContextFreeName": "Posters & Prints",
+                "DisplayName": "Posters & Prints",
+                "Id": "381142011",
+                "IsRoot": false,
+                "SalesRank": 34348
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Home & Kitchen",
+              "DisplayName": "Home & Kitchen",
+              "SalesRank": 782220
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B0844PTLHG?tag=cosmopolitan-20&linkCode=ogi&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51JUlSsr4DL.jpg",
+                "Width": 365
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51JUlSsr4DL._SL160_.jpg",
+                "Width": 117
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51JUlSsr4DL._SL75_.jpg",
+                "Width": 55
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41+mHihcrZL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41+mHihcrZL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41+mHihcrZL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41Shi+0eSeL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41Shi+0eSeL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41Shi+0eSeL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41m3KChh4kL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41m3KChh4kL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41m3KChh4kL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51HjJfm-m2L.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51HjJfm-m2L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51HjJfm-m2L._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Palace Learning",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "PalaceLearning",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "ProductGroup": {
+                "DisplayValue": "Home",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0632726065232"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "632726065232"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Each poster - 18\" x 24\"",
+                "High-quality 3 MIL lamination for added durability",
+                "Tear Resistant"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Laminated",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "18\" x 24\"",
+                "Label": "Size",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "PalaceLearning Sunflowers by Vincent Van Gogh - Fine Art Poster Print (Laminated, 18\" x 24\")",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "fn%2F2oJs72rOyAHG3ktzWGpXp3B69xnB4fDGyjBlFd5HUhk6rLufpkUithCBDPU%2B%2FmZCdmo%2BMSzf0Z6ZNTgwsNFzSPOmKryw1MK3oxrKE5g9gFnMcsZvYtfJpuGk%2Ff0Fix2evhiAMskhcQM8JB7Ii8TOt%2B%2Bcld%2FDk",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "DefaultShippingCountry": "US",
+                  "FeedbackCount": 3115,
+                  "FeedbackRating": 4.91,
+                  "Id": "ACWVD9CWKC7ZO",
+                  "Name": "CM Prime"
+                },
+                "Price": {
+                  "Amount": 7.95,
+                  "Currency": "USD",
+                  "DisplayAmount": "$7.95"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 7.95,
+                  "Currency": "USD",
+                  "DisplayAmount": "$7.95"
+                },
+                "LowestPrice": {
+                  "Amount": 7.95,
+                  "Currency": "USD",
+                  "DisplayAmount": "$7.95"
+                },
+                "OfferCount": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

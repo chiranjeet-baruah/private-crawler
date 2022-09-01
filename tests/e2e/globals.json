@@ -1,0 +1,15 @@
+{
+	"id": "db98c957-7621-4aec-80fb-5dda4c9e5dce",
+	"values": [
+		{
+			"key": "RUNKIT_BASE_URL",
+			"value": "https://fake-ecommerce-website-zemyeqg2w0lh.runkit.sh",
+			"description": "",
+			"enabled": true
+		}
+	],
+	"name": "My Workspace Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2019-01-23T16:07:33.496Z",
+	"_postman_exported_using": "Postman/6.7.1"
+}

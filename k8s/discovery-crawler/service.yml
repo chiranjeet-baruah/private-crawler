@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: discovery-crawler
+  name: discovery-crawler
+  namespace: default
+spec:
+  type: ClusterIP
+  ports:
+    - name: service
+      port: 4310
+      targetPort: 4310
+      protocol: TCP
+  selector:
+    app: discovery-crawler

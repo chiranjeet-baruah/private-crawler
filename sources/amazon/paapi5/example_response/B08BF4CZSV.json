@@ -1,0 +1,334 @@
+{
+    "ItemsResult": {
+      "Items": [
+        {
+          "ASIN": "B08BF4CZSV",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Computers & Accessories",
+                  "DisplayName": "Computers & Accessories",
+                  "Id": "541966"
+                },
+                "ContextFreeName": "Computer Monitors",
+                "DisplayName": "Monitors",
+                "Id": "1292115011",
+                "IsRoot": false,
+                "SalesRank": 1
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Computers Features",
+                "DisplayName": "Computers Features",
+                "Id": "13900871",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B08BF4CZSV?tag=cosmopolitan-20&linkCode=ogi&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 425,
+                "URL": "https://m.media-amazon.com/images/I/51IIMW6-TbL.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 136,
+                "URL": "https://m.media-amazon.com/images/I/51IIMW6-TbL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 64,
+                "URL": "https://m.media-amazon.com/images/I/51IIMW6-TbL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/418Yn09eGXL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/418Yn09eGXL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/418Yn09eGXL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/418m26Am9FL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/418m26Am9FL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/418m26Am9FL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51Y3mQhf-dL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51Y3mQhf-dL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51Y3mQhf-dL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51eqCzbSKKL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51eqCzbSKKL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51eqCzbSKKL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "HP",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Hewlett Packard",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Personal Computers",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Personal Computer",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0195122270674"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "195122270674"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "OUTSTANDING VISUALS – This FHD display with IPS technology gives you brilliant visuals and unforgettable quality; with a maximum resolution of 1920 x 1080 at 75 Hz, you’ll experience the image accuracy and wide-viewing spectrums of premium tablets and mobile devices",
+                "MORE SCREEN, LESS SPACE – Enjoy more desk space than you thought possible with an attractive and ultra-slim design",
+                "PANORAMIC VIEWING – Vibrant detail from practically any position with consistent color and image clarity maintained across an ultra-wide 178° horizontal and vertical viewing angles",
+                "MICRO-EDGE DISPLAY – With virtually no bezel encircling the display on three sides, an ultra-wide viewing experience provides for seamless multi-monitor setups",
+                "EASY CONNECTIVITY – Get the picture quality you’ve been looking for without the additional dongles; easily connect to your PC, gaming console, and peripherals for big-screen entertainment with a broad range of ports, including HDMI, DisplayPort, and VGA ports",
+                "BUILT-IN SPEAKERS – Experience incredible sound and more immersive entertainment with two built-in 2W speakers",
+                "LOW BLUE LIGHT – Put less strain on your eyes as a Low Blue Light mode shifts colors to a warmer spectrum and makes whites more natural",
+                "HEIGHT ADJUSTMENT – Easily adjust your display to the most comfortable position with 100mm range of travel",
+                "TILTABLE SCREEN – Adjust the screen to your personal preference with a 5° forward or 23° backward tilt",
+                "WARRANTY AND SUSTAINABILITY – Rest easy and work confidently with an environmentally conscious and energy-efficient monitor, backed by HP standard 1-year limited warranty"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "1D0J9AA#ABA",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "24mh",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "One year limited warranty",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Jet Black",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 18.28,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 23.54,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 9.94,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 8.33,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2020-09-06T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "HP 24mh FHD Monitor - Computer Monitor with 23.8-Inch IPS Display (1080p) - Built-In Speakers and VESA Mounting - Height/Tilt Adjustment for Ergonomic Viewing - HDMI and DisplayPort - (1D0J9AA#ABA)",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "azmXlCCGxJNXlAxvChsFsTq2BOUk8lIl2h%2FgEMPFpQHJF1wJVJWVY7n7ono%2F8JYIhyRsrUVOiCwXIRe5TXnPCdpkPReNXKFLTQpT6pIiYtitkwrrook6a8cgADNmVp2XwaoqIMdvHGi36UIstTUR%2FLqgcAhyH8YN",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "DefaultShippingCountry": "US",
+                  "FeedbackCount": 20,
+                  "FeedbackRating": 4.15,
+                  "Id": "A1SWJIE6R96GRM",
+                  "Name": "ETRON DEALS - ELECTRONICS SUPPLIER"
+                },
+                "Price": {
+                  "Amount": 169.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$169.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 189.36,
+                  "Currency": "USD",
+                  "DisplayAmount": "$189.36"
+                },
+                "LowestPrice": {
+                  "Amount": 110.39,
+                  "Currency": "USD",
+                  "DisplayAmount": "$110.39"
+                },
+                "OfferCount": 6
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 199.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$199.99"
+                },
+                "LowestPrice": {
+                  "Amount": 119.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$119.99"
+                },
+                "OfferCount": 15
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

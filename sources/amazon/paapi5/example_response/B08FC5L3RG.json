@@ -1,0 +1,226 @@
+{
+    "ItemsResult": {
+      "Items": [
+        {
+          "ASIN": "B08FC5L3RG",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Video Games",
+                      "DisplayName": "Video Games",
+                      "Id": "468642"
+                    },
+                    "ContextFreeName": "Videogames",
+                    "DisplayName": "Categories",
+                    "Id": "11846801"
+                  },
+                  "ContextFreeName": "PlayStation 5 Consoles, Games & Accessories",
+                  "DisplayName": "PlayStation 5",
+                  "Id": "20972781011"
+                },
+                "ContextFreeName": "PlayStation 5 Consoles",
+                "DisplayName": "Consoles",
+                "Id": "20972796011",
+                "IsRoot": false,
+                "SalesRank": 2
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Video Games",
+              "DisplayName": "Video Games",
+              "SalesRank": 949
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B08FC5L3RG?tag=cosmopolitan-20&linkCode=ogi&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/31Tu93a7ZkL.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/31Tu93a7ZkL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/31Tu93a7ZkL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/312lCUPhPXL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/312lCUPhPXL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/312lCUPhPXL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/31b+fcDZ8wL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/31b+fcDZ8wL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/31b+fcDZ8wL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "PlayStation",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Sony",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Video Game",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Video Games",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ContentInfo": {
+              "Edition": {
+                "DisplayValue": "Console",
+                "Label": "Edition",
+                "Locale": "en_US"
+              },
+              "Languages": {
+                "DisplayValues": [
+                  {
+                    "DisplayValue": "English",
+                    "Type": "Unknown"
+                  }
+                ],
+                "Label": "Language",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0711719541011",
+                  "0711719540984",
+                  "0711719541028",
+                  "7117195410552",
+                  "0711719541929",
+                  "0711719541004",
+                  "0711719541059",
+                  "7117195410774"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "711719541028",
+                  "711719541929",
+                  "711719541011",
+                  "711719540984",
+                  "711719541004",
+                  "711719541059"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Lightning Speed - Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do.",
+                "Stunning Games - Marvel at incredible graphics and experience new PS5 features.",
+                "Breathtaking Immersion - Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "3005718",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "3005718",
+                "Label": "Model",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 12.0,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 18.0,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 14.2,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 18.0,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2020-11-12T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "PlayStation 5 Console",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          }
+        }
+      ]
+    }
+  }

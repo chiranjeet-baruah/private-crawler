@@ -1,0 +1,55 @@
+language: generic
+
+services:
+  - docker
+
+env:
+  global:
+    - APP_NAME=go-crawler
+
+branches:
+  only:
+    - master
+    - /[0-9]+\.[0-9]+\.[0-9]+/
+    - /COMWOL\-[0-9+]/
+    - pull_request
+
+before_install:
+  - wget https://hearst-hatchery.github.io/atlas/ecr/vault_sem3.sh;
+  - chmod +x vault_sem3.sh;
+  - source vault_sem3.sh;
+
+install:
+  - wget https://hearst-hatchery.github.io/atlas/ecr/ecr_login.sh;
+  - chmod +x ecr_login.sh;
+  - source ecr_login.sh;
+  - wget https://hearst-hatchery.github.io/atlas/ecr/docker_pull_or_build.sh;
+  - chmod +x docker_pull_or_build.sh;
+  - source docker_pull_or_build.sh $GITHUB_TOKEN;
+
+script:
+  - /bin/true
+
+after_success: >-
+  if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+    wget https://hearst-hatchery.github.io/atlas/ecr/deploy_pull_request.sh;
+    chmod +x deploy_pull_request.sh;
+    ./deploy_pull_request.sh "${APP_NAME}" ${TRAVIS_PULL_REQUEST} ${TRAVIS_COMMIT:0:7};
+  fi;
+
+deploy:
+  - provider: script
+    script: >-
+      wget https://hearst-hatchery.github.io/atlas/ecr/deploy_master.sh;
+      chmod +x deploy_master.sh;
+      ./deploy_master.sh;
+    on:
+      branch: main
+  - provider: script
+    script: >-
+      wget https://hearst-hatchery.github.io/atlas/ecr/deploy_semver.sh;
+      chmod +x deploy_semver.sh;
+      ./deploy_semver.sh;
+    on:
+      tags: true
+      condition: $TRAVIS_TAG =~ [0-9]+\.[0-9]+\.[0-9]+

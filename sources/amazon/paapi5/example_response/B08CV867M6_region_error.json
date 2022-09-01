@@ -1,0 +1,9 @@
+{
+    "__type": "com.amazon.paapi5#InvalidPartnerTagException",
+    "Errors": [
+      {
+        "Code": "InvalidPartnerTag",
+        "Message": "The partner tag is not mapped to a valid associate store with your access key XXXXXXXXX. Please visit associates central at https://affiliate-program.amazon.co.uk/assoc_credentials/home"
+      }
+    ]
+  }

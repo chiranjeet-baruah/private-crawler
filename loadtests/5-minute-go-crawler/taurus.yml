@@ -1,0 +1,18 @@
+---
+execution:
+- concurrency: 15
+  throughput: 15
+  hold-for: 5m
+  ramp-up: 0s
+  scenario: jMeter Test
+
+scenarios:
+  jMeter Test:
+    script: 5-minute-go-crawler.jmx
+
+reporting:
+- module: burdened-reporter
+  thresholds:
+  - avg_throughput > 10
+  - avg_response_time < 500
+  - errors_count < 0.1

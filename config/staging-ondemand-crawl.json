@@ -1,0 +1,32 @@
+{
+    "redis_wrapper": "prod_wrapper_spl-0.semantics3.com:6379",
+    "mongo_wrapper": "mongodb://prod_wrapper_spl-0.semantics3.com:27017",
+    "redis_recrawldiscovery": "prod_rdstore_spl-0.semantics3.com:6379",
+	"rest_rdstoreupdate": "prod_recrawldiscovery_spl-0.semantics3.com:4110",
+    "proxy_router": "prod_proxy_router_spl-0.semantics3.com:4000",
+    "influx": {
+        "database": "appmetrics",
+        "crawl_metrics": "crawl_metrics_staging",
+        "product_metrics": "product_metrics_staging",
+    	"extraction_metrics": "extraction_metrics_staging",
+        "protocol": "udp",
+        "server": "prod_sem3_appmetrics_spl-0.semantics3.com:8089"
+    },
+	"unsupervised_extraction_rpc": {
+		"host": "prod_rpc_spl-0.semantics3.com",
+		"port": 5672,
+		"user": "general",
+		"pass": "general",
+		"queue" : "content_extractor_ai"
+	},
+	"extraction_rpc": {
+		"host": "prod_rd_rabbitmq_spl-0.semantics3.com",
+		"port": 5672,
+		"user": "general",
+		"pass": "by4&jGAzII1XHhZU",
+		"queue": "rd-content-extraction-staging"
+	},
+	"ondemand_crawl_queue": "rd-ondemand-crawl-staging",
+	"rd_msg_broker": "amqp://general:by4&jGAzII1XHhZU@prod_rd_rabbitmq_spl-0.semantics3.com:5672",
+	"job_server": "staging_go_jobserver_rd_spl-0.semantics3.com:3130"
+}

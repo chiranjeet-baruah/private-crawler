@@ -1,0 +1,342 @@
+{
+    "ItemsResult": {
+      "Items": [
+        {
+          "ASIN": "B08FC66ZV4",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Video Games",
+                      "DisplayName": "Video Games",
+                      "Id": "468642"
+                    },
+                    "ContextFreeName": "Videogames",
+                    "DisplayName": "Categories",
+                    "Id": "11846801"
+                  },
+                  "ContextFreeName": "PlayStation 5 Consoles, Games & Accessories",
+                  "DisplayName": "PlayStation 5",
+                  "Id": "20972781011"
+                },
+                "ContextFreeName": "PlayStation 5 Games",
+                "DisplayName": "Games",
+                "Id": "20972797011",
+                "IsRoot": false,
+                "SalesRank": 6
+              }
+            ],
+            "WebsiteSalesRank": {
+              "ContextFreeName": "Video Games",
+              "DisplayName": "Video Games",
+              "SalesRank": 361
+            }
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B08FC66ZV4?tag=cosmopolitan-20&linkCode=ogi&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/51-ws-E4DfL.jpg",
+                "Width": 414
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/51-ws-E4DfL._SL160_.jpg",
+                "Width": 132
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/51-ws-E4DfL._SL75_.jpg",
+                "Width": 62
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 281,
+                  "URL": "https://m.media-amazon.com/images/I/41PI3-r-lQL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 90,
+                  "URL": "https://m.media-amazon.com/images/I/41PI3-r-lQL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 42,
+                  "URL": "https://m.media-amazon.com/images/I/41PI3-r-lQL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 281,
+                  "URL": "https://m.media-amazon.com/images/I/417ydYlwajL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 90,
+                  "URL": "https://m.media-amazon.com/images/I/417ydYlwajL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 42,
+                  "URL": "https://m.media-amazon.com/images/I/417ydYlwajL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 281,
+                  "URL": "https://m.media-amazon.com/images/I/411r9kat+dL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 90,
+                  "URL": "https://m.media-amazon.com/images/I/411r9kat+dL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 42,
+                  "URL": "https://m.media-amazon.com/images/I/411r9kat+dL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51kqfg54deL.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51kqfg54deL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51kqfg54deL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "PlayStation",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Contributors": [
+                {
+                  "Locale": "en_US",
+                  "Name": "Sony Interactive Entertai",
+                  "Role": "Production Company",
+                  "RoleType": "production_company"
+                }
+              ],
+              "Manufacturer": {
+                "DisplayValue": "Sony",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Video Game",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Video Games",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ContentInfo": {
+              "Edition": {
+                "DisplayValue": "Ultimate Launch Edition",
+                "Label": "Edition",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0711719544869"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "711719544869"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "Miles Morales discovers explosive powers that set him apart from his mentor, Peter Parker. Master his unique, bio-electric venom blast attacks and covert camouflage power alongside spectacular web-slinging acrobatics, gadgets and skills.",
+                "A war for control of Marvel’s New York has broken out between a devious energy corporation and a high-tech criminal army. With his new home at the heart of the battle, Miles must learn the cost of becoming a hero and decide what he must sacrifice for the greater good.",
+                "Traverse the snowy streets of his new, vibrant and bustling neighborhood as Miles searches for a sense of belonging. When the lines blur between his personal and crime-fighting lives, he discovers who he can trust, and what it feels like to truly be home."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "SNYP3006163PS5",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "3006163",
+                "Label": "Model",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 6.7,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 0.6,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.17,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 5.4,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2020-11-12T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Marvel's Spider-Man: Miles Morales Ultimate Launch Edition – PlayStation 5",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "8UWJuaf%2FS%2BuTcnk%2FdWT22uxOSMlNXZkgXE7st6GUpnp9gHIll%2BGSCI%2Fa54%2BQQmuGW60rVYUzEKXkZEM%2FQZaTuEuyNibDNGezWTKMZP%2BrNZAvmvPJfTe1hQ%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 69.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$69.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Collectible"
+                },
+                "HighestPrice": {
+                  "Amount": 189.96,
+                  "Currency": "USD",
+                  "DisplayAmount": "$189.96"
+                },
+                "LowestPrice": {
+                  "Amount": 189.96,
+                  "Currency": "USD",
+                  "DisplayAmount": "$189.96"
+                },
+                "OfferCount": 1
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 125.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$125.00"
+                },
+                "LowestPrice": {
+                  "Amount": 59.95,
+                  "Currency": "USD",
+                  "DisplayAmount": "$59.95"
+                },
+                "OfferCount": 26
+              },
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 73.19,
+                  "Currency": "USD",
+                  "DisplayAmount": "$73.19"
+                },
+                "LowestPrice": {
+                  "Amount": 51.27,
+                  "Currency": "USD",
+                  "DisplayAmount": "$51.27"
+                },
+                "OfferCount": 11
+              }
+            ]
+          },
+          "ParentASIN": "B08JDVKWHS"
+        }
+      ]
+    }
+  }

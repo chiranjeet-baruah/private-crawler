@@ -1,0 +1,2371 @@
+{
+    "VariationsResult": {
+      "Items": [
+        {
+          "ASIN": "B07FFD3DG5",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 1636
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07FFD3DG5?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41KhlF-2icL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41KhlF-2icL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41KhlF-2icL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41az-FO00EL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41az-FO00EL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41az-FO00EL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Wireless Phone Accessory",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822010955"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822010955"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "True wireless earbuds – Conversations are made incredibly clear with the Jabra Elite 65t true wireless earbuds that are proven to deliver superior call performance. Plus, a long-lasting battery with charging case included keeps you connected all day.",
+                "Take work calls from home – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity— Even when you’re learning or working from home on your smartphone.",
+                "No audio dropouts – With our excellent record of connectivity, you can take calls and listen to music without a worry of audio dropouts. Plus, external ambient sound keeps you aware of surroundings and a background noise filter delivers crisp, clear calls.",
+                "Personalize your sound – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound plus app. Earbuds are Apple and Android compatible."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99000001-02",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99000001-02",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "1 year",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Gold Beige",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 7.34,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 4.88,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.25,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 2.17,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-12-11T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "Small",
+                "Label": "Size",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite 65t Earbuds – Alexa Built-In, True Wireless Earbuds with Charging Case, Gold Beige – Bluetooth Earbuds Engineered for the Best True Wireless Calls and Music Experience",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In stock soon. Order it now.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Backorderable"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLanktYw6lAmG0nb4UTuvDXuJjJMhseBg%2F2Kyd2ODY3CjJdDdnM9fSDPIYy9q0ini4wCwgL5IrDMdv1HRu2udlGmQIUZSTx5rcIbImHTqsCP6LAhg%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 79.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 59.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$59.99"
+                },
+                "LowestPrice": {
+                  "Amount": 59.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$59.99"
+                },
+                "OfferCount": 2
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 79.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.99"
+                },
+                "LowestPrice": {
+                  "Amount": 79.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.99"
+                },
+                "OfferCount": 1
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Elite 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Gold Beige"
+            }
+          ]
+        },
+        {
+          "ASIN": "B07BHF993Q",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 355
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Computers Features",
+                "DisplayName": "Computers Features",
+                "Id": "13900871",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07BHF993Q?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41yRRw-GxoL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41yRRw-GxoL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41yRRw-GxoL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41H8dwglWDL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41H8dwglWDL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41H8dwglWDL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41cU9kQnYzL._SL500_.jpg",
+                  "Width": 414
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41cU9kQnYzL._SL160_.jpg",
+                  "Width": 132
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41cU9kQnYzL._SL75_.jpg",
+                  "Width": 62
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Wireless Phone Accessory",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822010801"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822010801"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "True wireless earbuds for an active lifestyle – Wherever your day takes you, whatever your activity, it won’t get in the way of enjoying sports, music and calls. The Elite Active 65t are secure fitting earbuds that provide dependable in-ear stability.",
+                "Personalize your sound – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound+ app. Earbuds are Apple and Android compatible.",
+                "No audio dropouts – With Jabra’s 3rd generation true wireless stability, you can take calls and listen to music without worry about audio dropouts. And there are no pesky wires getting in the way of your workout",
+                "Up to 15 hours of use – With up to 5 hours of battery on a single charge, and up to 15 hours in total with the included pocket-friendly charging case, your listening needs are met from the start of the day, to its end with these earbuds.",
+                "Take work calls from home – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity— even when you’re working or learning from home on your smartphone."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99010000-02",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99010000-02",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "A limited one-year warranty applies to all Jabra mobile products purchased from an authorized reseller. Limited One (1) Year Warranty GN Netcom, Inc. / GN Audio A/S (“GN”) warrants this product to be free from defects in materials and workmanship (subject to the terms set forth below) for a period of one (1) year from the date of purchase from an authorized reseller. In addition to the limited one (1) year warranty, a limited two (2) year dust- and water resistance warranty applies to Jabra Elite 65t, Jabra Elite Active 65t and Jabra Elite 45e against product failures as a direct result from regular exposure to dust and water, ie. rain, splashes etc. (subject to the terms set forth below) from the time of purchase, when the Jabra product is registered with Jabra through the included Jabra Sounds application.Operating Temperature:-10° to + 55°C (14°F to 131°F)",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Copper Blue",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "IsAdultProduct": {
+                "DisplayValue": false,
+                "Label": "IsAdultProduct",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 0.88,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 1.06,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.65,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 1.18,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-05-25T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite Active 65t Earbuds – True Wireless Earbuds with Charging Case, Copper Blue – Bluetooth Earbuds with a Secure Fit and Superior Sound, Long Battery Life and More (100-99010000-02)",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLanktYw6lAmG0nbxlfSwf11pM2%2BR3OXTCjs5EqEZ%2BYhWaOC28POsdCgmHd0EVmtXTgW7Nd5M1zsYTlfpK5DM19NVr8%2FrtOtbsUR9hG21v0vnaX%2FA%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 86.07,
+                  "Currency": "USD",
+                  "DisplayAmount": "$86.07",
+                  "Savings": {
+                    "Amount": 13.92,
+                    "Currency": "USD",
+                    "DisplayAmount": "$13.92 (14%)",
+                    "Percentage": 14
+                  }
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "SavingBasis": {
+                  "Amount": 99.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$99.99"
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 179.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$179.99"
+                },
+                "LowestPrice": {
+                  "Amount": 74.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$74.99"
+                },
+                "OfferCount": 14
+              },
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 120.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$120.00"
+                },
+                "LowestPrice": {
+                  "Amount": 54.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$54.99"
+                },
+                "OfferCount": 14
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Active 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Copper Blue"
+            }
+          ]
+        },
+        {
+          "ASIN": "B07H3DJXHZ",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 354
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Computers Features",
+                "DisplayName": "Computers Features",
+                "Id": "13900871",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07H3DJXHZ?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41Q4+97mxHL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41Q4+97mxHL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41Q4+97mxHL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/5197pcpI8UL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/5197pcpI8UL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/5197pcpI8UL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41VPkzEdr6L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41VPkzEdr6L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41VPkzEdr6L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51GUX2gVuVL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51GUX2gVuVL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51GUX2gVuVL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41w8cPC8iZL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41w8cPC8iZL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41w8cPC8iZL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41U6I6jY5PL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41U6I6jY5PL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41U6I6jY5PL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/4140E+jNutL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/4140E+jNutL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/4140E+jNutL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Wireless Phone Accessory",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822011938"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822011938"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "True wireless earbuds for an active lifestyle: Wherever your day takes you, whatever your activity, it won’t get in the way of enjoying sports, music and calls; The Elite Active 65t are secure fitting earbuds that provide dependable in ear stability",
+                "Personalize your sound – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound+ app. Earbuds are Apple and Android compatible.",
+                "No audio dropouts – With Jabra’s 3rd generation true wireless stability, you can take calls and listen to music without worry about audio dropouts. And there are no pesky wires getting in the way of your workout",
+                "Up to 15 hours of use - With up to 5 hours of battery on a single charge, and up to 15 hours in total with the included pocket friendly charging case, your listening needs are met from the start of the day, to its end with these earbuds",
+                "Take work calls from home – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity— even when you’re working or learning from home on your smartphone."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99010003-02",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99010003-02",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "One year warranty",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Copper Black",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 7.34,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 4.88,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.174826573766,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 2.17,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-11-24T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "2.5",
+                "Label": "Size",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite Active 65t Earbuds – True Wireless Earbuds with Charging Case, Copper Black – Bluetooth Earbuds with a Secure Fit and Superior Sound, Long Battery Life and More",
+              "Label": "Title",
+              "Locale": "en_US"
+            },
+            "TradeInInfo": {
+              "IsEligibleForTradeIn": true,
+              "Price": {
+                "Amount": 1.0,
+                "Currency": "USD",
+                "DisplayAmount": "$1.00"
+              }
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLanktYw6lAmG0nb0rg8dXGMDVHmh%2FF8HSwHT4FduSfrF6Qrj5RdgDzbDENEIAF6uAwrRJ%2FqFrItSWr1XvqyX04QhuH9M8DklpcoFofLjITkA%2BcIg%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 85.44,
+                  "Currency": "USD",
+                  "DisplayAmount": "$85.44",
+                  "Savings": {
+                    "Amount": 14.55,
+                    "Currency": "USD",
+                    "DisplayAmount": "$14.55 (15%)",
+                    "Percentage": 15
+                  }
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "SavingBasis": {
+                  "Amount": 99.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$99.99"
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 79.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.99"
+                },
+                "LowestPrice": {
+                  "Amount": 52.01,
+                  "Currency": "USD",
+                  "DisplayAmount": "$52.01"
+                },
+                "OfferCount": 6
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 151.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$151.00"
+                },
+                "LowestPrice": {
+                  "Amount": 85.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$85.00"
+                },
+                "OfferCount": 14
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Active 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Copper Black"
+            }
+          ]
+        },
+        {
+          "ASIN": "B077ZGRVRX",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 139
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Computers Features",
+                "DisplayName": "Computers Features",
+                "Id": "13900871",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B077ZGRVRX?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41KscMXrqvL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41KscMXrqvL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41KscMXrqvL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51LcZC15oAL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51UWTHfq49L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51AVHxR2JzL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/518zOjyT2CL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41pXkycKhnL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41pXkycKhnL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41pXkycKhnL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Wireless Phone Accessory",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822010535"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822010535"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "True wireless earbuds – Conversations are made incredibly clear with the Jabra Elite 65t true wireless earbuds that are proven to deliver superior call performance. Plus, a long-lasting battery with charging case included keeps you connected all day.",
+                "Take work calls from home – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity— Even when you’re learning or working from home on your smartphone.",
+                "No audio dropouts – With our excellent record of connectivity, you can take calls and listen to music without the worry of audio dropouts. Plus, external ambient sound keeps you aware of surroundings and a background noise filter delivers crisp, clear calls.",
+                "Personalize your sound – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound+ app. Earbuds are Apple and Android compatible.",
+                "Jabra Elite 65t is optimized to be used with smartphones/mobile phones. It’s not specifically optimized to be used directly with a computer"
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99000000-02",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99000000-02",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "1 Year",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Titanium Black",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 2.2,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 4.9,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.68,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 7.3,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-03-20T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "2.3",
+                "Label": "Size",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite 65t Earbuds – Alexa Built-In, True Wireless Earbuds with Charging Case, Titanium Black – Bluetooth Earbuds Engineered for the Best True Wireless Calls and Music Experience",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLanktYw6lAmG0nb84iiWxjTDg9pvyMbOu0CuiYqoF3sO%2BAsKSfJIWB5tSz%2BwK%2FghJQ%2FvtB%2F6Qn0lhVudGeVSyMN4PC3ODWfcvzhuwx7HzOUKR%2FbQ%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 79.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 159.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$159.99"
+                },
+                "LowestPrice": {
+                  "Amount": 72.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$72.99"
+                },
+                "OfferCount": 21
+              },
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 92.86,
+                  "Currency": "USD",
+                  "DisplayAmount": "$92.86"
+                },
+                "LowestPrice": {
+                  "Amount": 46.5,
+                  "Currency": "USD",
+                  "DisplayAmount": "$46.50"
+                },
+                "OfferCount": 6
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Elite 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Titanium Black"
+            }
+          ]
+        },
+        {
+          "ASIN": "B07G7QK8PH",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 1237
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Computers Features",
+                "DisplayName": "Computers Features",
+                "Id": "13900871",
+                "IsRoot": false
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Home & Kitchen",
+                  "DisplayName": "Home & Kitchen",
+                  "Id": "1055398"
+                },
+                "ContextFreeName": "Kitchen & Dining Features",
+                "DisplayName": "Kitchen & Dining Features",
+                "Id": "13900821",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B07G7QK8PH?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41iFV77uUdL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41iFV77uUdL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41iFV77uUdL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/515SOe72jrL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51KThD0tIOL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41QS8UcA6rL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41QS8UcA6rL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41QS8UcA6rL._SL75_.jpg",
+                  "Width": 75
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Wireless Phone Accessory",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822011174"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822011174"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "True wireless earbuds for an active lifestyle – Wherever your day takes you, whatever your activity, it won’t get in the way of enjoying sports, music and calls. The Elite Active 65t are secure fitting earbuds that provide dependable in-ear stability.",
+                "Personalize your sound – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound+ app. Earbuds are Apple and Android compatible.",
+                "No audio dropouts – With Jabra’s 3rd generation true wireless stability, you can take calls and listen to music without worry about audio dropouts. And there are no pesky wires getting in the way of your workout",
+                "Up to 15 hours of use – With up to 5 hours of battery on a single charge, and up to 15 hours in total with the included pocket-friendly charging case, your listening needs are met from the start of the day, to its end with these earbuds.",
+                "Take work calls from home – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity - even when you’re working or learning from home on your smartphone."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99010001-02",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99010001-02",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "2 years",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Copper Red",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "IsAdultProduct": {
+                "DisplayValue": false,
+                "Label": "IsAdultProduct",
+                "Locale": "en_US"
+              },
+              "ItemDimensions": {
+                "Height": {
+                  "DisplayValue": 2.165,
+                  "Label": "Height",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Length": {
+                  "DisplayValue": 4.882,
+                  "Label": "Length",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                },
+                "Weight": {
+                  "DisplayValue": 0.7,
+                  "Label": "Weight",
+                  "Locale": "en_US",
+                  "Unit": "Pounds"
+                },
+                "Width": {
+                  "DisplayValue": 7.343,
+                  "Label": "Width",
+                  "Locale": "en_US",
+                  "Unit": "Inches"
+                }
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2018-09-15T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "Small",
+                "Label": "Size",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite Active 65t Earbuds – True Wireless Earbuds with Charging Case, Copper Red – Bluetooth Earbuds with a Secure Fit and Superior Sound, Long Battery Life and More",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLanktYw6lAmG0nb%2F1BVn95p2bPNcvD%2B3jG%2B%2FUSx%2BOQ6klwhHvhSxkJ2cPPEKjRWdJfTRIkqpZ73EKOwsvaYVRgnVU3%2FpA1iXBncKrTfNxpT%2Bl7Ow%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 99.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$99.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 66.55,
+                  "Currency": "USD",
+                  "DisplayAmount": "$66.55"
+                },
+                "LowestPrice": {
+                  "Amount": 54.26,
+                  "Currency": "USD",
+                  "DisplayAmount": "$54.26"
+                },
+                "OfferCount": 6
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 151.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$151.00"
+                },
+                "LowestPrice": {
+                  "Amount": 99.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$99.99"
+                },
+                "OfferCount": 7
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Active 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Copper Red"
+            }
+          ]
+        },
+        {
+          "ASIN": "B08TRTL4TS",
+          "BrowseNodeInfo": {
+            "BrowseNodes": [
+              {
+                "Ancestor": {
+                  "Ancestor": {
+                    "Ancestor": {
+                      "ContextFreeName": "Electronics",
+                      "DisplayName": "Electronics",
+                      "Id": "172282"
+                    },
+                    "ContextFreeName": "Electronics",
+                    "DisplayName": "Categories",
+                    "Id": "493964"
+                  },
+                  "ContextFreeName": "Audio Headphones",
+                  "DisplayName": "Headphones",
+                  "Id": "172541"
+                },
+                "ContextFreeName": "Earbud & In-Ear Headphones",
+                "DisplayName": "Earbud Headphones",
+                "Id": "12097478011",
+                "IsRoot": false,
+                "SalesRank": 484
+              },
+              {
+                "Ancestor": {
+                  "ContextFreeName": "Electronics",
+                  "DisplayName": "Electronics",
+                  "Id": "172282"
+                },
+                "ContextFreeName": "Electronics Features",
+                "DisplayName": "Electronics Features",
+                "Id": "13900851",
+                "IsRoot": false
+              }
+            ]
+          },
+          "DetailPageURL": "https://www.amazon.com/dp/B08TRTL4TS?tag=cosmopolitan-20&linkCode=ogv&th=1&psc=1",
+          "Images": {
+            "Primary": {
+              "Large": {
+                "Height": 500,
+                "URL": "https://m.media-amazon.com/images/I/41EHMBSnVUL._SL500_.jpg",
+                "Width": 500
+              },
+              "Medium": {
+                "Height": 160,
+                "URL": "https://m.media-amazon.com/images/I/41EHMBSnVUL._SL160_.jpg",
+                "Width": 160
+              },
+              "Small": {
+                "Height": 75,
+                "URL": "https://m.media-amazon.com/images/I/41EHMBSnVUL._SL75_.jpg",
+                "Width": 75
+              }
+            },
+            "Variants": [
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51XGvsPJ6PL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51BT+s2FJ+L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51BT+s2FJ+L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51BT+s2FJ+L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51zKbvTvCTL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51iKOT+UClL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51iKOT+UClL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51iKOT+UClL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/51nl-AlRy8L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41zXHkIyFNL._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41zXHkIyFNL._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41zXHkIyFNL._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/41--cv28R1L._SL500_.jpg",
+                  "Width": 500
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/41--cv28R1L._SL160_.jpg",
+                  "Width": 160
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/41--cv28R1L._SL75_.jpg",
+                  "Width": 75
+                }
+              },
+              {
+                "Large": {
+                  "Height": 500,
+                  "URL": "https://m.media-amazon.com/images/I/31vQqxQSpbL._SL500_.jpg",
+                  "Width": 300
+                },
+                "Medium": {
+                  "Height": 160,
+                  "URL": "https://m.media-amazon.com/images/I/31vQqxQSpbL._SL160_.jpg",
+                  "Width": 96
+                },
+                "Small": {
+                  "Height": 75,
+                  "URL": "https://m.media-amazon.com/images/I/31vQqxQSpbL._SL75_.jpg",
+                  "Width": 45
+                }
+              }
+            ]
+          },
+          "ItemInfo": {
+            "ByLineInfo": {
+              "Brand": {
+                "DisplayValue": "Jabra",
+                "Label": "Brand",
+                "Locale": "en_US"
+              },
+              "Manufacturer": {
+                "DisplayValue": "Jabra",
+                "Label": "Manufacturer",
+                "Locale": "en_US"
+              }
+            },
+            "Classifications": {
+              "Binding": {
+                "DisplayValue": "Electronics",
+                "Label": "Binding",
+                "Locale": "en_US"
+              },
+              "ProductGroup": {
+                "DisplayValue": "Wireless",
+                "Label": "ProductGroup",
+                "Locale": "en_US"
+              }
+            },
+            "ExternalIds": {
+              "EANs": {
+                "DisplayValues": [
+                  "0615822011419"
+                ],
+                "Label": "EAN",
+                "Locale": "en_US"
+              },
+              "UPCs": {
+                "DisplayValues": [
+                  "615822011419"
+                ],
+                "Label": "UPC",
+                "Locale": "en_US"
+              }
+            },
+            "Features": {
+              "DisplayValues": [
+                "TRUE WIRELESS EARBUDS FOR AN ACTIVE LIFESTYLE – Wherever your day takes you, whatever your activity, it won’t get in the way of enjoying sports, music and calls. The Elite Active 65t are secure fitting earbuds that provide dependable in-ear stability.",
+                "PERSONALIZE YOUR SOUND – Whether you’re using these as Apple earbuds, Samsung earbuds or more, you can listen to your music the way you want to hear it, by personalizing your sound on the Jabra Sound+ app. Earbuds are Apple and Android compatible.",
+                "NO AUDIO DROPOUTS – With Jabra’s 3rd generation true wireless stability, you can take calls and listen to music without worry about audio dropouts. And there are no pesky wires getting in the way of your workout!",
+                "UP TO 15 HOURS OF USE – With up to 5 hours of battery on a single charge, and up to 15 hours in total with the included pocket-friendly charging case, your listening needs are met from the start of the day, to its end with these earbuds.",
+                "TAKE WORK CALLS FROM HOME – Incredible 4-microphone technology offers best-in-class call performance, with up to 15 hours of battery for maximum productivity— even when you’re working or learning from home on your smartphone."
+              ],
+              "Label": "Features",
+              "Locale": "en_US"
+            },
+            "ManufactureInfo": {
+              "ItemPartNumber": {
+                "DisplayValue": "100-99010002-14",
+                "Label": "PartNumber",
+                "Locale": "en_US"
+              },
+              "Model": {
+                "DisplayValue": "100-99010002-14",
+                "Label": "Model",
+                "Locale": "en_US"
+              },
+              "Warranty": {
+                "DisplayValue": "Two year warranty",
+                "Label": "Warranty",
+                "Locale": "en_US"
+              }
+            },
+            "ProductInfo": {
+              "Color": {
+                "DisplayValue": "Titanium Black",
+                "Label": "Color",
+                "Locale": "en_US"
+              },
+              "ReleaseDate": {
+                "DisplayValue": "2021-01-22T00:00:01Z",
+                "Label": "ReleaseDate",
+                "Locale": "en_US"
+              },
+              "Size": {
+                "DisplayValue": "Small",
+                "Label": "Size",
+                "Locale": "en_US"
+              },
+              "UnitCount": {
+                "DisplayValue": 1,
+                "Label": "NumberOfItems",
+                "Locale": "en_US"
+              }
+            },
+            "Title": {
+              "DisplayValue": "Jabra Elite Active 65t Earbuds – True Wireless Earbuds with Charging Case, Titanium Black – Bluetooth Earbuds with a Secure Fit and Superior Sound, Long Battery Life and More",
+              "Label": "Title",
+              "Locale": "en_US"
+            }
+          },
+          "Offers": {
+            "Listings": [
+              {
+                "Availability": {
+                  "MaxOrderQuantity": 3,
+                  "Message": "In Stock.",
+                  "MinOrderQuantity": 1,
+                  "Type": "Now"
+                },
+                "Condition": {
+                  "SubCondition": {
+                    "Value": "New"
+                  },
+                  "Value": "New"
+                },
+                "DeliveryInfo": {
+                  "IsAmazonFulfilled": true,
+                  "IsFreeShippingEligible": true,
+                  "IsPrimeEligible": true
+                },
+                "Id": "VQE8KFLankuXxg%2FlVgzHnNMDl5BaicK8XG6hgdyy5Bf1D2Buw3E51RaNKFrfT%2FBKpMgLqi71JzUbPA78WxTAhWjYU6fmbDWgqfoXTHth3UGhiocVXguHBg%3D%3D",
+                "IsBuyBoxWinner": true,
+                "MerchantInfo": {
+                  "FeedbackCount": 387,
+                  "FeedbackRating": 4.68,
+                  "Id": "ATVPDKIKX0DER",
+                  "Name": "Amazon.com"
+                },
+                "Price": {
+                  "Amount": 99.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$99.99"
+                },
+                "ProgramEligibility": {
+                  "IsPrimeExclusive": false,
+                  "IsPrimePantry": false
+                },
+                "ViolatesMAP": false
+              }
+            ],
+            "Summaries": [
+              {
+                "Condition": {
+                  "Value": "Used"
+                },
+                "HighestPrice": {
+                  "Amount": 69.99,
+                  "Currency": "USD",
+                  "DisplayAmount": "$69.99"
+                },
+                "LowestPrice": {
+                  "Amount": 48.97,
+                  "Currency": "USD",
+                  "DisplayAmount": "$48.97"
+                },
+                "OfferCount": 12
+              },
+              {
+                "Condition": {
+                  "Value": "New"
+                },
+                "HighestPrice": {
+                  "Amount": 222.0,
+                  "Currency": "USD",
+                  "DisplayAmount": "$222.00"
+                },
+                "LowestPrice": {
+                  "Amount": 79.95,
+                  "Currency": "USD",
+                  "DisplayAmount": "$79.95"
+                },
+                "OfferCount": 9
+              }
+            ]
+          },
+          "ParentASIN": "B08V47HYBW",
+          "VariationAttributes": [
+            {
+              "Name": "style_name",
+              "Value": "Active 65t"
+            },
+            {
+              "Name": "color_name",
+              "Value": "Titanium Black"
+            }
+          ]
+        }
+      ],
+      "VariationSummary": {
+        "PageCount": 1,
+        "VariationCount": 6,
+        "VariationDimensions": [
+          {
+            "DisplayName": "Style",
+            "Name": "style_name",
+            "Values": [
+              "Active 65t",
+              "Elite 65t"
+            ]
+          },
+          {
+            "DisplayName": "Color",
+            "Name": "color_name",
+            "Values": [
+              "Copper Black",
+              "Copper Blue",
+              "Copper Red",
+              "Titanium Black",
+              "Gold Beige"
+            ]
+          }
+        ]
+      }
+    }
+  }
